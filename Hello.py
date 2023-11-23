@@ -1,10 +1,5 @@
-import math as m
 import pandas as pd
-import numpy as np
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.preprocessing import LabelEncoder
 import joblib
 from datetime import time
 
