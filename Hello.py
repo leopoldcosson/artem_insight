@@ -40,7 +40,7 @@ def return_waiting_time(DoctorName, BookedTime):
     prediction = loaded_model.predict(df)[0]
     # st.write(prediction)
 
-    return float_to_time(prediction+time_before)
+    return float_to_time(prediction+time_before-1.00)
 
 
 # Création de l'interface Streamlit
